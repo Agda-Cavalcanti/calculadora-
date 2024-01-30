@@ -11,18 +11,18 @@
 
 
 def calculadora (a,b, operador):
-    if operador == 1:
-        resultado = a + b
-    elif operador == 2:
-        resultado = a - b
-    elif operador == 3:
-        resultado = a * b
-    elif operador == 4:
-        resultado = a / b
+    if (operador == 1):
+        return a + b
+    elif (operador == 2):
+        return a - b
+    elif (operador == 3):
+        return a * b
+    elif (operador == 4):
+        return a / b
     else:
-        resultado = 0
+       return 0
     
-    return resultado
+    
 
 
 print("\n|  CALCULADORA  |\n\n")
